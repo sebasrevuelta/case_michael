@@ -3,3 +3,5 @@ def danger2(request):
     image = request.POST['image']
     os.system("./face-recognize %s --N 24" % image)
     print("Sebas")
+    # this a comment
+
